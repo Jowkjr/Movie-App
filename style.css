@@ -23,6 +23,30 @@ header {
   background-color: var(--secendary-color);
 }
 
+header .btns {
+  position: relative;
+  margin: 0 2%;
+  left: 0;
+  width: 100%;
+}
+
+.btnCategory {
+  padding: 1% 2%;
+  margin: 0 2%;
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: var(--primary-color);
+}
+
+.btnCategory:hover {
+  background-color: #222;
+}
+
+.active {
+  color: red;
+  background-color: #000;
+}
+
 .search {
   background-color: transparent;
   background-color: var(--primary-color);
